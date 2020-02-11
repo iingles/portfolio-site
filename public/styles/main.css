@@ -5,15 +5,16 @@
     2/11/2020
 
     Colors:
-    #FFCAB1 - Apricot
-    #ECDCB0 - Wheat
-    #C1D7AE - Light Moss Green
-    #8CC084 - Dark Sea Green
-    #968E85 - Mummy's Tomb
+    #77878B - Light Slate Gray
+    #305252 - Dark Slate Gray
+    #373E40 - Onyx
+    #488286 - Wintergreen Dream
+    #B7D5D4 - Pale Aqua
+    #e7f1f1 - Really Pale Aqua
 
     Fonts: (Google Fonts)
     Roboto
-    Lemonada
+    Ubuntu
         
 
 */
@@ -79,8 +80,119 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.9;
 }
 
 h1 {
-    font-family: 'Lemonada', cursive;
+    font-size: 3.4rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+h3 {
+    font-size: 2.2rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+h5 {
+    font-size: 1.6rem;
+}
+
+.main-header {
+   
+}
+
+.main-header a {
+    color: #fff;
+    background: #305252;
+}
+
+.full-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container {
+    padding: 2rem;
+}
+
+.section-header {
+    text-align: center;
+}
+
+.dark-bg {
+    background-color: #373E40;
+    color: #fff;    
+}
+
+.med-bg {
+    background-color: #e7f1f1;
+    color: #000;     
+}
+
+.light-bg {
+    background-color: #fff;
+    color: #000;
+}
+
+.top {
+    height: 100vh;
+}
+
+.top-photo {
+    border-radius: 10rem;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1rem 0;
+}
+
+.form-row input {
+    margin: 0 1rem;
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    border: none;
+}
+
+.contact-form textarea {
+    resize: none;
+    width: 40rem;
+    height: 15rem;
+    padding: 1rem 1.5rem;
+    border: none;
+}
+
+.btn {
+	display: inline-block;	
+	padding: 1rem 2rem;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	letter-spacing: .17rem;
+	font-size: 1.1rem;
+	font-weight: 700;
+	line-height: 2;
+	border: .1rem solid transparent;	
+	border-radius: .5rem;
+	user-select: none;
+	cursor: pointer;
+}
+
+.contact-form .btn {
+    color: #fff;
+    background-color: #488286
 }
