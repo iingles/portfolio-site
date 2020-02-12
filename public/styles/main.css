@@ -159,9 +159,22 @@ h5 {
     margin: 1rem 0;
 }
 
+.form-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-right: .5rem;
+}
+
+.form-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: .5rem;
+}
+
 .form-row input {
-    margin: 0 1rem;
-    padding: 1rem 1.5rem;
+    padding: 1rem 1rem;
     font-size: 1.5rem;
     border: none;
 }
