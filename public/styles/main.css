@@ -209,3 +209,9 @@ h5 {
     color: #fff;
     background-color: #488286
 }
+
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 5.2rem;
+    }
+}
